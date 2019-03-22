@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Lista 4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="header">
+            <h2>---------Formulario--------</h2>
+        </div>
+
+        <div id="mainnav">
+
+            <ul>
+                <li><a href='#'>Principal</a>
+                    <ul>
+                        <li><a href='index.html'>Principal</a></li>
+                        <li><a href='https://s3.amazonaws.com/cdn.leiturinha.com.br/blog/uploads/2018/09/livro-imagem.jpg'>Teste2</a></li>
+                    </ul>
+                </li>
+                <li><a href='#'>Formulario</a>
+                    <ul>
+                        <li><a href='formulario.html'>Formulario</a></li>
+                        <li><a
+                                href='https://s3.amazonaws.com/cdn.leiturinha.com.br/blog/uploads/2018/09/livro-imagem.jpg'>Teste2</a></li>
+                    </ul>
+                </li>
+                <li><a href='#'>Zueira</a>
+                    <ul>
+                        <li><a
+                                href='https://s3.amazonaws.com/cdn.leiturinha.com.br/blog/uploads/2018/09/livro-imagem.jpg'>Teste1</a>
+                        </li>
+                        <li><a
+                                href='https://s3.amazonaws.com/cdn.leiturinha.com.br/blog/uploads/2018/09/livro-imagem.jpg'>Teste2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href='#'>Animes</a>
+                    <ul>
+                        <li><a href='https://s3.amazonaws.com/cdn.leiturinha.com.br/blog/uploads/2018/09/livro-imagem.jpg'>Teste1</a></li>
+                        <li><a href='https://s3.amazonaws.com/cdn.leiturinha.com.br/blog/uploads/2018/09/livro-imagem.jpg'>Teste2</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div id="contents">
+    <script type="text/javascript">
+
+
+  $(document).ready(function(){
+    $('.menu-anchor').on('click touchstart', function(e){
+        $('html').toggleClass('menu-active');
+        e.preventDefault();
+    });
+  })
+      
+    </script>
+	              <form>
+               <br> Nome de usuario: <input type="text" name="usrname" required title="Obrigado preencher"><br>
+               Idade<input type="number" name="idade" min="1" max="999"><br>
+               Quantos kg(arrendondado)<input type="number" name="kilos" step="10">
+               seu email<input id="email"  type="email" value="email@email.com">
+               <input type="submit">
+
+              </form>
+            </div>
+
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href='#'>Contatos</a></li>
+                <li><a href='#'>Suporte</a></li>
+                <li><a href='#'>Sair</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+    <div id="footer">Direitos Reservados</div>
+
+</body>
+
+</html>
